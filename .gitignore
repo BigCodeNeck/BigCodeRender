@@ -1,0 +1,58 @@
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Output directories
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+
+# Visual Studio specific files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.ncb
+*.user
+*.cache
+*.pdb
+*.ipch
+*.opensdf
+*.tlog
+*.log
+*.db
+*.opendb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sln
+*.suo
+*.workspace
+
+# Backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Python virtual environment if used
+venv/
+__pycache__/
+*.py[cod]
+
+# Other
+*.log

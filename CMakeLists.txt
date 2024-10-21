@@ -14,6 +14,6 @@ add_library(BigCodeRender STATIC ${SRC_FILES} ${HEADER_FILES})
 # Include directories
 target_include_directories(BigCodeRender PUBLIC include)
 
-# Add examples (optional: adjust as you add them)
+# Add examples
 add_executable(example_basic examples/basic_example.cpp)
 target_link_libraries(example_basic BigCodeRender)
